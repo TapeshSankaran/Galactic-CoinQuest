@@ -144,14 +144,6 @@ class Level3 extends Phaser.Scene {
         
         this.animatedTiles = [];
 
-        this.coinText = this.add.text(350, 100, 'Coins Collected', {
-			fontSize: 18, 
-			//color: '#FFC03D', 
-            strokeThickness: 2, 
-			color: '#000000', 
-			align: 'center'
-		}).setOrigin(1, 0.5).setScrollFactor(1.2)
-
         let timer = this.time.addEvent({ delay: 600, callback: () => {
             this.map.replaceByIndex(34, 54, 0, 0, 3000, 1000, "Ground-n-Platforms");
             this.map.replaceByIndex(35, 36, 0, 0, 3000, 1000, "Ground-n-Platforms");
@@ -436,6 +428,14 @@ class Level3 extends Phaser.Scene {
             this.scene.restart();
             this.isPaused = true;
         });
+
+        this.coinText = this.add.text(450, 200, 'Coins Collected: ' + (this.registry.get('score') + this.coinsCollected), {
+			fontSize: 18, 
+			//color: '#FFC03D', 
+            strokeThickness: 2, 
+			color: '#000000', 
+			align: 'center'
+		}).setOrigin(0.5, 0.5).setScrollFactor(0)
     }
 
     delayedRestart () {
