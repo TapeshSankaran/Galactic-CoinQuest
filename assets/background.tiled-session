@@ -1,0 +1,77 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/tapit/Documents/CMPM120/p5.template/Pathfinder/assets/tiny-town-tileset.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInEditor": 11
+        },
+        "C:/Users/tapit/Documents/CMPM120/p5.template/Pathfinder/assets/tiny-town-tileset.tmx": {
+            "scale": 2.6956249999999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.3338743334106,
+                "y": 200.13911430558778
+            }
+        },
+        "C:/Users/tapit/Documents/CMPM120/p5.template/Pathfinder/assets/tiny-town-tileset.tmx#kenney-tiny-town": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "background.tmx": {
+            "scale": 1.1611111111111112,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 431.91387559808607,
+                "y": 179.5693779904306
+            }
+        },
+        "ddd.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "platformer-level-1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1295,
+                "y": 449
+            }
+        },
+        "platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        }
+    },
+    "frame.defaultDuration": 400,
+    "last.exportedFilePath": "C:/Users/tapit/Documents/CMPM120/p5.template/PlatformerGame/assets",
+    "last.imagePath": "C:/Users/tapit/Documents/CMPM120/p5.template/PlatformerGame/assets",
+    "lastUsedTilesetExportFilter": "All Files (*)",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 48,
+    "openFiles": [
+        "platformer-level-1.tmx",
+        "C:/Users/tapit/Documents/CMPM120/p5.template/Pathfinder/assets/tiny-town-tileset.tmx"
+    ],
+    "project": "background.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "platformer-level-1.tmx",
+        "C:/Users/tapit/Documents/CMPM120/p5.template/Pathfinder/assets/tiny-town-tileset.tmx",
+        "ddd.tsx",
+        "background.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}
